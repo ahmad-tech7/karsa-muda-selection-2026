@@ -33,11 +33,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build
-        run: npm run build
-        env:
-          VITE_SUPABASE_URL: ${{ secrets.https://wkrrzwapqwufqmjpymiu.supabase.co/rest/v1/ }}
-          VITE_SUPABASE_ANON_KEY: ${{ secrets.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndrcnJ6d2FwcXd1ZnFtanB5bWl1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODc5MjE0MzYsImV4cCI6MjEwMzQ5NzQzNn0.ypYP_Jtz5b6XAcdnPiAOivPnoSg2V6jcxbNAVWUOZGQ }}
+      - - name: Build
+  run: npm run build
+  env:
+    VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+    VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
