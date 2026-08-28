@@ -75,7 +75,7 @@ values
 ('Lia Apriliani', 'KM26-047', 'XI M1', 'BELUM_DIUMUMKAN', 'Pendaftaran', false),
 ('Saepul Jamil', 'KM26-048', 'XI M1', 'BELUM_DIUMUMKAN', 'Pendaftaran', false),
 ('Ezar Arafi Setia Murni', 'KM26-049', 'XI M1', 'BELUM_DIUMUMKAN', 'Pendaftaran', false),
-('Dude Harlino', 'KM26-050', 'XI M1', 'BELUM_DIUMKAN', 'Pendaftaran', false),
+('Dude Harlino', 'KM26-050', 'XI M1', 'BELUM_DIUMUMKAN', 'Pendaftaran', false),
 ('Darul Ibnu Muzakki', 'KM26-051', 'XI M1', 'BELUM_DIUMUMKAN', 'Pendaftaran', false),
 ('Rifki Salam', 'KM26-052', 'XI M1', 'BELUM_DIUMUMKAN', 'Pendaftaran', false),
 ('M. Ripqi al paqih', 'KM26-053', 'XI M1', 'BELUM_DIUMUMKAN', 'Pendaftaran', false),
